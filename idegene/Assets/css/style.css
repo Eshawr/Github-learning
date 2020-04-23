@@ -1,0 +1,784 @@
+body
+{
+	padding: 0;
+	margin: 0;
+
+}
+/*variables*/
+
+:root
+{
+ --main-bg-color:#cabba0;
+}
+
+/*fonts*/
+@font-face
+{
+font-family:myfirstfont;
+src:url("../fonts/Lato/Lato-Light.ttf");
+}
+@font-face
+{
+	font-family:myfirstfont1;
+	src:url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+/*navbar starts here*/
+nav
+{
+	height: 80px;
+
+}
+.logo{
+	height: 75px;
+	margin-left: 64px;
+	
+}
+nav i 
+{
+	font-weight: 400;
+    font-family:myfirstfont;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: var(--main-bg-color);
+    color: white;
+    text-decoration: none;
+
+}
+.right 
+{
+    float: right;
+    margin-right: 64px;
+    margin-top: 11px;
+}
+.toggle 
+{
+    height: 31px;
+    margin-top: 16px;
+    margin-bottom: -9px;
+}
+a
+{
+	text-decoration: none;
+	/*padding: 7px;*/
+}
+.menu
+{
+	margin-left: 20px;
+	font-size: 20px;
+    color:#888677;
+}
+
+
+/*navbar ends here*/
+
+/*menu bar start here*/
+#menubar
+{
+    border-top: 2px solid black;
+    opacity: 0.2;
+}
+/*menu bar end here*/
+
+/*banner starts here*/
+.banner{
+	background-color: lightgrey;
+	height: 510px;
+}
+.banner1{
+	padding-left: 316px;
+    padding-top: 110px;
+    color: white;
+}
+h1 {
+
+    font-size: 39px;
+    /* text-align: center; */
+    margin-left: -35px;
+    font-family:myfirstfont;
+
+}
+h3 
+{
+    font-size: 22px;
+    margin-left: 104px;
+    font-family: myfirstfont;
+}
+button.btn 
+{
+    border: 1px solid #82525294;
+    padding: 15px 37px;
+    margin-left: 172px;
+    color: white;
+    background-color:var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+}
+
+button.btn1 
+{
+    padding: 15px 42px;
+    margin-left: 2px;
+    border: 1px solid transparent;
+}
+
+
+/*banner ends here*/
+/*market start here*/
+.market
+{
+	background-image: url(../images/banner.jpg);
+	margin-top: -26px;
+	max-width: 100%;
+	height: 610px;
+}
+h3.digi 
+{
+    padding-top: 248px;
+    font-family: myfirstfont;
+    font-weight: 900;
+    font-size: 24px;
+    font-size: bold;
+}
+h4.quote 
+{
+    color: white;
+    font-size: 25px;
+    margin-left: 104px;
+    margin-top: -11px;
+}
+button.btn2 
+{
+    padding: 15px 27px;
+    margin-left: 104px;
+    margin-top: -14px;
+    border: 1px solid transparent;
+}
+
+/*market end here*/
+
+/*company start here*/
+.company
+{
+	background-color: white;
+	height: 510px;
+
+}
+.company-text
+{
+	text-align: center;
+	font-size:24px;
+	margin-top: 45px;
+	font-weight: 800;
+    font-family:myfirstfont;
+}
+.company-text1 
+{
+    text-align: center;
+    font-size: 21px;
+    margin-top: -8px;
+    font-weight: 800;
+    font-family: myfirstfont1;
+    margin-left: -32px;
+   color: #d68d8d99;
+    margin-bottom: 63px;
+    font-style: italic;
+}
+.column 
+{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 169px;
+ 
+ }
+ .row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+*
+{
+	box-sizing: border-box;
+}
+img.proj 
+{
+    margin-top: -137px;
+    text-align: right;
+    margin-left: 519px;
+    opacity: 0.9;
+}
+img.proj3
+{
+      margin-top: -137px;
+    text-align: right;
+    margin-left: 513px;
+    opacity: 0.9;
+    width: 160px;
+}
+.column p 
+{
+	-ms-word-break: break-all;
+  word-break: break-all;
+}
+h2.customer 
+{
+	text-align: right;
+    font-family: myfirstfont1;
+    margin-bottom: 18px;
+    margin-right: 152px;
+    font-size: 21px;
+}
+.size
+ {
+    display: inline-block;
+    /* margin-right: -162px; */
+    font-size: 14px;
+    color: #d68d8d99;
+    font-weight: bold;
+    margin-left: 205px;
+    letter-spacing: 1px;
+    
+}
+.size1
+ {
+    display: inline-block;
+    font-size: 14px;
+    color: #d68d8d99;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top:51px;
+    margin-left: 20px
+}
+h2.customer1
+{
+	text-align: left;
+    font-family: myfirstfont1;
+    margin-bottom: -37px;
+    /* margin-right: 127px; */
+    font-size: 21px;
+    margin-left: 137px;
+}
+img.proj1 
+{
+    margin-top: -17px;
+    opacity: 0.9;
+    width: 142px;
+    text-align: center;
+    float: left;
+    opacity: 0.9;
+    margin-left: -25px;
+}
+img.proj4 
+{
+    margin-top: -17px;
+    opacity: 0.9;
+    width: 142px;
+    text-align: center;
+    float: left;
+    opacity: 0.9;
+    margin-left: -25px;
+    width: 157px;
+}
+/*company end here*/
+/*inspiration testimony start here */
+#inspiration
+{
+	margin-top: 150px;
+	height: 600px;
+}
+
+.inspiration
+{
+    margin-top: 150px;
+    height: auto;
+}
+.tree
+{
+    height:auto;
+    width: 1349px;
+}
+.slide1
+{
+    float: left;
+    width: 30%;
+}
+.manctr
+{
+    color: white;
+    font-size: 117px;
+    padding: 20px 71px 0px 28px;
+    margin: 96px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.man1 
+{
+    color: white;
+    opacity: 0.4;
+    font-size: 117px;
+    padding: 20px 71px 0px 28px;
+    margin: 96px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.manp
+{
+    margin-left: 96px;
+    opacity: 0.4;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: -64px;
+}
+.manp1
+{
+    margin-left: 96px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: -64px;
+}
+
+.slide
+{
+    position: absolute;
+    top: 300%;
+    margin-left: 142px;
+}
+.slide .testimony{
+    color: white;
+    margin-left: 319px;
+    font-size: 39px;
+    font-weight: lighter;
+    margin-bottom: -34px;
+}
+.slide1 .president{
+    font-size: 22px;
+    margin-left: 138px;
+    font-family: myfirstfont2;
+    color: white;
+    font-weight: bold;
+    opacity: 0.4;
+    margin-top: 50px;
+}
+.slide1 .exe{
+    font-size: 22px;
+    margin-left: 138px;
+    font-family: myfirstfont2;
+    color: white;
+    font-weight: bold;
+    opacity: 0.4;
+    margin-top: 50px;
+}
+.slide1 .ceo{
+    font-size: 22px;
+    margin-left: 138px;
+    font-family: myfirstfont2;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+li
+{
+    display: inline-block;
+   color: white;
+}
+.circle{
+     position: absolute;
+    right: 0;
+    bottom: -100px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 5%;
+    list-style: none;
+}
+.circle li
+{
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    border:4px solid white;
+    border-radius: 50%;
+    opacity: .5;
+}
+.circle .filled
+{
+    background-color: white;
+    opacity: 1;
+}
+/*inspiration testimony end here */
+
+
+/*Upcoming event start here*/
+#upevent
+{
+    height: 846px;
+    margin-top: 295px;
+}
+.events
+{
+    margin-left: 170px;
+    margin-top: 40px;
+}
+div .events2
+{
+    font-family: myfirstfont1;
+}
+.upcoming
+{
+    margin-left: 170px;
+    margin-top: 50px;
+    font-size: 37px;
+    font-family: myfirstfont1;
+    font-weight: 600;
+}
+.event{
+    height:200px;
+}
+.events1{
+    width: 31%;
+    float: left;
+}
+.monday{
+    color: grey;
+    font-family: myfirstfont;
+    font-style: italic;
+    font-weight: bold;
+}
+.maddisson{
+    color: var(--main-bg-color);
+    font-family: myfirstfont;
+    font-style: italic;
+    font-weight: bold;
+}
+.maddisson i{
+    color:grey;
+}
+.mountain{
+    color: grey;
+    font-family: myfirstfont;
+    font-style: italic;
+    font-weight: bold;
+}
+.read{
+    background-color: var(--main-bg-color);
+    padding: 10px 17px;
+    border: none;
+    color: white;
+}
+/*Upcoming event end here*/
+
+
+/*Blog stated here*/
+#blog
+{
+    background-color: #f5f5f5;
+    height: 710px;
+    margin-top: 200px;
+}
+.blog-head
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 85px;
+    font-family: myfirstfont1;
+    font-weight: bolder;
+    font-size: 32px;
+}
+h5.blog-text
+ {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -8px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 600;
+    color: #b9837e;
+    opacity: 0.4;
+    font-family: myfirstfont1;
+}
+.menuu 
+{
+  float:left;
+  width:33.3%;
+  text-align:center;
+}
+.menuu .imges1
+{
+    margin-left: 128px;
+    height: 177px;
+    width: 316px;
+
+}
+.menuu .imges2
+{
+    height: 177px;
+    width: 316px;
+        margin-left: -46px;
+
+}
+.menuu .imges3
+{
+    height: 177px;
+    width: 316px;
+margin-right: 173px;
+    margin-left: -49px;
+
+}
+ .january
+{
+    float: left;
+    width: 23%;
+    margin-left: 132px;
+    height: 259px;
+    background-color: #e6d8d8;
+    margin-top: -4px;
+    opacity: 0.7;
+
+}
+.press-release 
+{
+    float: left;
+    width: 47%;
+    text-align: center;
+    background-color: white;
+    height: 260px;
+    margin-top: -5px;
+  
+}
+span.eighteen
+{
+    font-size: 49px;
+    color: #442828c9;
+    font-weight: 600;
+
+}
+span.jan
+{
+    font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+span.twenty
+{
+     font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+.press-head
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: myfirstfont1;
+    font-size: 20px;
+    margin-left: -46px;
+}
+.press-release .press-text
+{
+    text-align: left;
+    margin-left: 21px;
+    font-size: 14px;
+    font-family: myfirstfont1;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+
+
+.january1
+{
+    float: left;
+    width: 23%;
+    margin-left: 44px;
+    height: 259px;
+    background-color: #e6d8d8;
+    margin-top: -4px;
+    opacity: 0.7;
+
+}
+.press-release1 
+{
+    float: left;
+    width: 47%;
+    text-align: center;
+    background-color: white;
+    height: 260px;
+    margin-top: -5px;
+  
+}
+span.eighteen1
+{
+    font-size: 49px;
+    color: #442828c9;
+    font-weight: 600;
+}
+span.jan1
+{
+    font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+span.twenty1
+{
+     font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+.press-head1
+{
+  font-weight: bold;
+    text-transform: capitalize;
+    font-family: myfirstfont1;
+    font-size: 20px;
+    margin-left: -81px;
+}
+.press-release1 .press-text1
+{
+    text-align: left;
+    margin-left: 21px;
+    font-size: 14px;
+    font-family: myfirstfont1;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+
+.january2
+{
+    float: left;
+    width: 23%;
+    margin-left: -43px;
+    height: 259px;
+    background-color: #e6d8d8;
+    margin-top: -4px;
+    opacity: 0.7;
+
+}
+.press-release2
+{
+    float: left;
+    width: 47%;
+    text-align: center;
+    background-color: white;
+    height: 260px;
+    margin-top: -5px;
+  
+}
+span.eighteen2
+{
+    font-size: 49px;
+    color: #442828c9;
+    font-weight: 600;
+}
+span.jan2
+{
+    font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+span.twenty2
+{
+     font-size: 19px;
+    margin: auto;
+    color: #7b5d5d;
+    font-weight: 600;
+    font-family: myfirstfont;
+}
+.press-head2
+{
+   font-weight: bold;
+    text-transform: capitalize;
+    font-family: myfirstfont1;
+    font-size: 20px;
+    margin-left: -44px;
+}
+.press-release2 .press-text2
+{
+    text-align: left;
+    margin-left: 21px;
+    font-size: 14px;
+    font-family: myfirstfont1;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+
+
+/*Blog end here*/
+
+/*<!-- News Letter started -->*/
+footer
+{
+    height: 400px;
+    background-color: black;
+    margin-top: -30px;
+}
+.news-header
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 97px;
+    font-size: 46px;
+}
+input#name
+ {
+    padding: 21px 131px 17px 13px;
+    margin-left: 436px;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+label 
+{
+    padding: 21px 24px 19px 27px;
+    color: #fdfdfd;
+    background-color: #b5a382;
+    font-size: 18px;
+    margin-left: -5px;
+}
+.bottom
+{
+    color: white;
+    text-align: center;
+    margin-top: 34px;
+    opacity: 0.8;
+    font-family: myfirstfont1;
+}
+span 
+{
+    padding: 12px;
+    color: white;
+    opacity: 0.9;
+}
+
+/*<!-- News Letter end -->*/
